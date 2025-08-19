@@ -1,0 +1,26 @@
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+header, footer {
+  background-color: #282c34;
+  color: white;
+  padding: 1rem;
+}
+
+.progress-bar {
+  width: 80%;
+  height: 20px;
+  background-color: #ddd;
+  margin: 20px auto;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.progress-bar-fill {
+  height: 100%;
+  background-color: #4caf50;
+  width: 0%;
+  transition: width 0.3s ease-in-out;
+}
